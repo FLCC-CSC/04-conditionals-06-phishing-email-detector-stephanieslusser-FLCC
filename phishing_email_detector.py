@@ -20,8 +20,8 @@ print ('SECURITY ASSESSMENT:')
 
 if 'urgent' in subject.lower():
     print('HIGH RISK: Possible phishing attempt.')
-elif 'immidiate action required' in subject.lower():
-       print('HIGH RISK: Possible phishing attempt.') 
+elif 'immediate action required' in subject.lower():
+     print('HIGH RISK: Possible phishing attempt.') 
 elif 'win' in subject.lower():
     print('MEDIUM RISK: Suspicious offer detected.')
 elif 'free' in subject.lower():
